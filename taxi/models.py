@@ -7,7 +7,7 @@ class Manufacturer(models.Model):
     country = models.CharField(max_length=255)
 
     class Meta:
-        ordering = ['name']
+        ordering = ["name"]
 
 
 class Driver(AbstractUser):
